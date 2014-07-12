@@ -23,7 +23,7 @@ public class FiveRandomStrings {
         String[] randomString = new String[5];
         
         for(int i = 0; i <= randomString.length - 1; i++) {
-          range = randomizer.nextInt(16) + 4;
+          range = randomizer.nextInt(13) + 4;
           System.out.printf("%02d_" + StringUtils.repeat(firstInitial, range) + "\n", 3+range);
         }
     }
